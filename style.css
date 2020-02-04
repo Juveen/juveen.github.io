@@ -1,0 +1,105 @@
+body {
+    background-color: black;
+}
+.fullcontent {
+    background-image: url(images/background.png);
+    background-size: cover;
+}
+.logo {
+    box-shadow: 0px 0px 10px #00ffe4;
+}
+.logo:hover {
+    box-shadow: 0px 0px 10px #ff1e00;
+}
+.header {
+  	overflow: hidden;
+  	padding: 0px 0px;
+}
+.header a {
+  	float: left;
+ 	  color: #d9f5fc;
+  	font-family: "Swis721 Cn BT";
+  	font-weight: bold;
+  	text-align: center;
+  	padding: 12px;
+  	text-decoration: none;
+  	line-height: 25px;
+  	text-shadow: 0px 0px 10px #00ffe4;
+}
+.header #otherfontsize {
+    font-size: 30px;
+}
+.header #playnow {
+    font-size: 40px;
+}
+
+.header a:hover {
+  	text-shadow: 0px 0px 10px #ff1e00; 
+    color: #fcd9d9;
+}
+.navigation {
+  	float: right;
+}
+.trailer video{ 
+    box-shadow: 0px 0px 10px #00ffe4;
+    margin-top: 80px;
+    margin-bottom: 60px;
+    width: 45%;
+    min-width: 450px;
+}
+.footer {
+    background-color: black;
+    color: white;
+    padding: 20px 0;
+    font-size: 12px;
+}
+.footer img{
+    width: 150px;
+}
+
+/*CSS Game == game/play_now.html */
+.game embed {
+    width: 70%;
+    height: 600px;
+    margin-top: 2.4%;
+}
+.game a {
+    color: #d9f5fc;
+    font-family: "Swis721 Cn BT";
+    font-weight: bold;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    line-height: 25px;
+    border-radius: 4px;
+    text-shadow: 0px 0px 10px #00ffe4;
+    font-size: 30px;
+}
+.game a:hover {
+    text-shadow: 0px 0px 10px #ff1e00; 
+    color: #fcd9d9;
+}
+
+@media screen and (max-width: 577px) {
+  	.header a {
+	    float: none;
+	    display: block;
+  	}
+  	.header #otherfontsize {
+      font-size: 30px;
+    }
+	.header #playnow {
+		  font-size: 30px;
+    }
+  	.navigation {
+    	float: none;
+  	}
+    .trailer video {
+      width: 75%;
+      margin: 20px 0;
+      min-width: unset;
+    }
+    .game embed {
+      height: 200px;
+    }
+}

@@ -1,0 +1,30 @@
+.game {
+	margin-top: 30px;
+}
+.transparentbox {
+	background-color: black;
+	width: 80%;
+	margin: 20px 10% 20px;
+	color: white;
+	text-align: center;
+}
+.titles {
+	padding: 20px;
+}
+.subtitles{
+	padding: 20px;
+	background-color: #0e1013;
+}
+.descriptions {
+	padding: 5%;
+	text-align: justify;
+}
+.descriptions ul {
+	list-style-type: none;
+}
+.descriptions li {
+	display: inline;
+}
+.fullcontent {
+	background-position: center;
+}
